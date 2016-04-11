@@ -1,0 +1,23 @@
+手动安装：
+1.将install文件夹下的yi_system.sql导入数据库中。
+2.修改incl文件夹下的数据库连接文件：config.example.php为config.php并修改其中信息。
+3.管理员的登陆页为：yi_cms/login.php 用户名：admin 密码：admin 请在登陆成功后修改！
+4.为保证程序正常运行，请保证userfiles、fm_files、yi_cms/module_backup/data文件夹有足够的写入或删除权限！
+5.安装成功后，请删除install文件夹。
+自动安装：
+1.运行install文件夹下的index.php，按照提示进行即可。
+2.管理员的登陆页为：yi_cms/login.php 用户名：admin 密码：admin 请在登陆成功后修改！
+3.为保证程序正常运行，请保证userfiles、fm_files、yi_cms/data、incl文件夹有足够的写入或删除权限！
+4.安装成功后，请删除install文件夹。
+
+n.incl/define.php也含有重要配置信息，请您留意。
+
+请先在后台添加模块后，再将模块id映射到前台首页各模块中，此项需手动更改首页模块id。
+
+
+开发环境信息
+
+服务器操作系统：Windows_NT
+服务器解译引擎：Apache/2.2.14 (Win32) PHP/5.2.8
+PHP版本：5.2.8
+MYSQL版本：5.0.18-nt

@@ -1,0 +1,10 @@
+User-agent: * 
+Disallow: /yi_cms
+Disallow: /userfiles
+Disallow: /js
+Disallow: /install
+Disallow: /incl
+Disallow: /images
+Disallow: /fm_files
+Disallow: /css
+Disallow: /adodb5

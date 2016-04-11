@@ -1,0 +1,120 @@
+@charset "gb2312";
+/*一级菜单*/
+#nav{
+	width:1000px;
+	height:38px;/*导航高度*/
+	position:relative;
+	z-index:9999;
+/*	left:106px;
+	top:19px;*/
+}
+#nav li{
+	width:100px;/*导航宽度*/
+	height:38px;/*导航高度*/
+	float:left;
+	line-height:38px;/*导航高度*/
+	font-size:14px;/*字体大小*/
+	cursor:pointer;
+	position:relative;
+	z-index:99;
+	text-align:center;
+	background:url(../images/menu_blank.gif);
+}
+#nav li.first{
+	width:100px;/*导航宽度*/
+	/*margin-right:30px;导航间隔*/
+	/*text-indent:15px;导航缩进*/
+	/*background:#333;导航背景*/
+}
+#nav li span{
+	display:block;
+	width:11px;
+	height:11px;
+	background:url(../images/ico.png) 9px 3px;
+	position:absolute;
+	right:5px;
+	top:10px;/*三角箭头距顶部距离*/
+	z-index:101;
+	cursor:pointer;
+}
+#nav li span.arrow{
+	background:url(../images/ico.png) 11px -17px;
+}
+#nav li a{
+	display:block;
+	width:100px;/*导航宽度*/
+	height:38px;/*导航高度*/
+	color:#000;/*超链接颜色*/
+	font-weight:500;
+}
+#nav li a:hover{
+	color:#fff;/*超链接悬浮颜色*/
+}
+/*二级菜单*/
+#nav li ul.sub{
+	width:100px;/*导航宽度*/
+	display:none;
+	position:absolute;
+	top:36px;/*二级菜单距一级菜单距离*/
+	left:-1px;
+	z-index:100;
+	background:#fff;/*背景色*/
+	border:1px solid #fff;/*边框颜色*/
+	font-size:14px;/*字体大小*/
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+}
+#nav li ul li{
+	text-indent:5px;/*导航缩进*/
+	border-bottom:1px solid #CCC;/*顶边框颜色*/
+	border-top:1px solid #330000;
+}
+#nav li ul li.hover{
+	background:#3CF;/*鼠标悬浮背景色*/
+	cursor:pointer;
+	border-bottom:1px solid #CCC;/*顶边框颜色*/
+	border-top:1px solid #330000;
+}
+#nav li ul li em{
+	display:block;
+	width:11px;
+	height:13px;
+	background:url(../images/ico.png) 0 -40px;
+	position:absolute;
+	right:5px;
+	top:6px;
+	z-index:101;
+	cursor:pointer;
+}
+#nav li ul li em.arrow{
+	background:url(../images/ico.png) 0 -62px;
+}
+/*三级菜单*/
+#nav li ul ul{
+	background:#fff;/*背景色*/
+	position:absolute;
+	left:100px;/*三级菜单距二级菜单距离*/
+	top:3px;
+	display:none;
+	width:100px;/*导航宽度*/
+	font-size:14px;/*字体大小*/
+	border:1px solid #fff;/*边框颜色*/
+	z-index:102;
+	-moz-border-radius-topright:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+}
+#nav li ul ul li{
+	border-bottom:1px solid #CCC;/*顶边框颜色*/
+	border-top:1px solid #260000;
+}
+#nav li ul ul li a{
+	display:block;
+	width:100px;/*导航宽度*/
+}
+#nav li ul ul li a:hover{
+	background:#3CF;/*鼠标悬浮背景色*/
+}

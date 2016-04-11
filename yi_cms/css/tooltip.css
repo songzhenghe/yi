@@ -1,0 +1,18 @@
+.tooltip1 {
+	display:none;
+	background:transparent url(../images/black_arrow.png);
+	font-size:12px;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:#fff;	
+}
+.tooltip2{
+	display:none;
+	background:transparent url(../images/black_arrow_big.png);
+	height:163px;
+	padding:40px 30px 10px 30px;
+	width:310px;
+	font-size:14px;
+	color:#fff;
+}

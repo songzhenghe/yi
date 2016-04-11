@@ -1,0 +1,204 @@
+body {
+	padding:0;
+	margin:0;
+	font-size:12px;
+	background:#fff url(../images/navbg.gif) 0 3px repeat-x;
+	font-family:Verdana;
+	color:#333;
+}
+img { 
+	border:0; 
+}
+table {
+	border-collapse:collapse;
+}
+th { 
+	text-align:left;
+	font-size:12px; 
+}
+td {
+	font-size:12px;
+}
+html {
+	height:100% 
+}
+* { 
+	margin:0;
+	padding:0;
+}
+ul {
+	list-style-type:none; 
+}
+a { 
+	color:#067098;
+	text-decoration:none; 
+}
+a:hover { 
+	color:#FF6600;
+}
+.fr {
+	float:right;
+}
+.fl { 
+	float:left;
+}
+.cc { 
+	clear:both;
+	margin-right:1em;
+	border-top:1px solid #91c900;
+	height:10px; 
+}
+#header { 
+	border-top:3px solid #3ca1d6;
+	height:80px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	overflow:hidden;
+}
+#guide { 
+	overflow:hidden;
+	margin-top:45px; 
+}
+#guide a:hover { 
+	text-decoration:underline; 
+}
+#guide ul {
+	height:35px;
+	line-height:32px;
+	margin-right:1em;
+}
+#guide ul li { 
+	float:left;
+	margin-right:.5em;
+	padding-left:1.5em;
+	background:url(../images/toptool-li.png) .3em .7em no-repeat;
+}
+#guide ul .home { 
+	background:none;
+	padding-left:.5em; 
+}
+.logo {
+	background:url(../images/logo.gif) left top no-repeat;
+	width:160px;
+}
+.logo .png {
+	height:43px;
+}
+.logo .lun {
+	line-height:35px;
+	height:36px;
+	text-align:center;
+	color:#067098;
+}
+.nav {
+	height:35px;
+	padding-top:.8em;
+	position:absolute;
+	left:159px;
+	width:100%; 
+}
+.nav li { 
+	float:left; 
+	height:35px; 
+	line-height:35px; 
+	width:auto; 
+	text-align:center;
+}
+.nav li a { 
+	color:#FFFFFF; 
+	text-decoration:none; 
+	letter-spacing:2px; 
+	background:url(../images/nav_main_bg.png) no-repeat left top; 
+	width:100px; 
+	height:35px; 
+	display:block;
+}
+.nav li a:hover { 
+	color:#000000; 
+	font-weight:bold; 
+	background:url(../images/nav_main_bg.png) no-repeat left -35px;
+}
+.nav .home {
+	width:60px; 
+}
+.nav .home a {
+	width:60px; 
+	height:35px; 
+	display:block; 
+	background:url(../images/nav_home_bg.png) no-repeat left top; 
+}
+.nav .home a:hover { 
+	background:url(../images/nav_home_bg.png) no-repeat left -35px; 
+}
+.nav .more {
+	width:60px; 
+}
+.nav .more a { 
+	width:60px; 
+	height:35px; 
+	display:block; 
+	background:url(../images/nav_more_bg.jpg) no-repeat left top; 
+	letter-spacing:normal; 
+	color:#FFFFFF; 
+	font-weight:normal;
+}
+.nav .more a:hover {
+	background:url(../images/nav_more_bg.jpg) no-repeat left -35px; 
+	letter-spacing:normal; 
+	color:#FFFFFF; 
+	font-weight:normal;
+}
+.wei { 
+	height:32px; 
+	line-height:30px; 
+	padding-left:1em;
+}
+#main-fl { 
+	background:#fff url(../images/main-left.gif) right top repeat-y;
+	width:160px; 
+}
+#left {
+	margin:.2em 0 1em 1em;
+}
+#left h1 { 
+	float:left; 
+	font-size:12px; 
+	height:30px; 
+	line-height:32px; 
+	padding:0 .8em 0 .8em; 
+	border-bottom:3px solid #91c900; 
+	color:#376585;
+}
+#left h2 { 
+	font-size:12px; 
+	height:25px; 
+	line-height:25px; 
+	text-align:center; 
+	color:#888;
+}
+#left ul { 
+	padding:0 0 .8em 0; 
+	margin:0px;
+}
+#left ul li { 
+	height:24px; 
+	line-height:24px;
+}
+#left a { 
+	display:block; 
+	background:url(../images/main-left-a.gif) 1.5em .7em no-repeat; 
+	padding-left:2.8em; 
+	color:#555;
+}
+#left a:hover {
+	background:url(../images/main-left-hover.gif) 6px top no-repeat;
+}
+#left ul .one {
+	height:24px; 
+}
+#left ul .one a, #left ul .one a:hover { 
+	height:24px; 
+	background:url(../images/main-left-home.gif) 6px top no-repeat;
+}
